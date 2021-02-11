@@ -1,0 +1,165 @@
+h1{
+    position: absolute;
+    display: block;
+    top:-5px;
+    left : 379;
+    right: 265;
+    bottom: 800;
+    color: darkblue;
+    white-space: nowrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrap{
+    width: 910px;
+}
+
+html, body{
+    margin: 0;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    position: absolute;
+    top: 60;
+    background-color: blanchedalmond;
+    height: 35px;
+    width: 932;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu ul{
+    margin-left: 0.7em;
+    list-style: none;
+    display: inline;
+    margin-top: 65;
+}
+
+.menu li{
+    display: inline-flex;
+    padding: 25;
+    margin-top: -15px;
+    margin-left: -28px;
+}
+
+
+.textonimage{
+    position: absolute;
+    top: 233;
+    left: 240;
+    font-size: 51;
+    color: white;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.button{
+    position: absolute;
+    top: 313;
+    left: 585;
+    border: 3px double black;
+    white-space: nowrap;
+    height: 31px;
+    width: 184px;
+}
+
+.parallax{
+    background-image: url("Restaurant.jfif");
+    width: 823;
+    margin-left: 45;
+    margin-top: 125 ;
+    height: 391;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*background-position: 21px 9px;*/
+    padding-top: 0;
+}
+
+.cuisinesheader{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    color: #7A0A76;
+    margin-left: 308px;
+    margin-top: 23px;
+    font-weight: bold;
+    font-size: 24px;
+    height: 50px;
+    overflow-x: hidden;
+}
+
+.blue{
+    color: blue;
+    font-weight: bold;
+    background: none;
+}
+
+.cuisinetext{
+    font: 1.0em "Times New Roman", Times, serif;
+    float: left;
+    white-space: nowrap;
+}
+
+.cuisineimgdim{
+    width: 387px;
+    height: 251px;
+}
+
+.italiantext{
+    margin-left: 583px;
+    margin-top: 131px;
+    position: absolute;
+}
+.italianimg{
+    float: left;
+    margin-left: 45px;
+    margin-top: 30px;
+    border: 10px solid #FFE5E0;
+}
+
+.indiantext{
+    margin-left: -403px;
+    margin-top: 443px;
+}
+.indianimg{
+    float: left;
+    margin-left: 463px;
+    border: 10px solid #ABD5E5;
+    margin-top: 40px;
+}
+
+.japanesetext{
+    margin-left: 583px;
+    margin-top: -172px;
+}
+.japaneseimg{
+    float: left;
+    margin-left: 45px;
+    border: 10px solid #FFE5E0;
+    margin-top: 40px;
+    white-space: nowrap;
+}
+
+.dessertstext{
+    margin-left: 45px;
+    margin-top: 150px;
+}
+.dessertsimg{
+    float: left;
+    margin-left: 172px;
+    border: 10px solid #ABD5E5;
+    margin-top: 40px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 416px 416px;
+    margin-left: 45px;
+    margin-top: 100px;
+}
+
+.grid-item{
+    padding-bottom: 20px;
+}
